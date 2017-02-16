@@ -1,9 +1,10 @@
 # Cura packaged as a container from Ubuntu PPA
 
-This image packages [Thomas Pietrowski's](https://launchpad.net/~thopiekar) [cura PPA](https://launchpad.net/~thopiekar/+archive/ubuntu/cura) so that it can be run in an isloated container.
+This image packages [Thomas Pietrowski's cura PPA](https://launchpad.net/~thopiekar/+archive/ubuntu/cura) so that it can be run in an isloated container.
 
 It can be run with the following script:
-```
+
+```sh
 #!/bin/sh
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
